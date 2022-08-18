@@ -47,7 +47,7 @@ end
 ```ruby 
 response = HTTParty.get('https://api.etherscan.io/api?module=account&action=tokentx&address=0xffbc10d5520d549f36dd6f4774710e121d9ea1d1&startblock=0&endblock=999999999&sort=asc')
 ```
-from response only fetch data with `contractAddress: 0x401f6c983ea34274ec46f84d70b31c151321188b` with is Polygon's plasma bridge address.
+from response only fetch data with `contractAddress: 0x401f6c983ea34274ec46f84d70b31c151321188b` which is Polygon's plasma bridge address.
 
 
 
